@@ -1,0 +1,28 @@
+{
+    "name": "toloka-api",
+    "version": "0.0.1",
+    "description": "Provides login and search API for toloka.to.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node app.js",
+        "build": "yarn install --ignore-optional",
+    },
+    "license": "SEE LICENSE IN LICENSE.md",
+    "engines": {
+        "node": ">=8.1"
+    },
+    "keywords": [
+        "toloka",
+        "hurtom",
+        "api"
+    ],
+    "author": {
+        "name": "Pavel Pshenychnyj"
+    },
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.2",
+        "request": "^2.88.0",
+        "request-promise": "^4.2.2",
+        "tough-cookie": "^2.4.3"
+    }
+}
