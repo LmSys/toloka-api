@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "start": "node app.js",
-        "build": "yarn install --ignore-optional",
+        "build": "yarn install --ignore-optional"
     },
     "license": "SEE LICENSE IN LICENSE.md",
     "engines": {
