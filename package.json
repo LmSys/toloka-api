@@ -1,6 +1,6 @@
 {
     "name": "toloka-api",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "Provides login and search API for toloka.to.",
     "main": "index.js",
     "scripts": {
