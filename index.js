@@ -28,6 +28,12 @@ class TolokaApi {
             .thread(id)
             .then(html => this.parser.parsePage(html));
     }
+
+    url(url) {
+        return this.pageProvider
+            .url(url)
+            .then(html => this.parser.parsePage(html));
+    }
 }
 
 module.exports = TolokaApi;
