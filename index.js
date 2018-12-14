@@ -34,6 +34,12 @@ class TolokaApi {
             .url(url)
             .then(html => this.parser.parsePage(html));
     }
+
+    // content(id) {
+    //     return this.pageProvider
+    //         .content(id)
+    //         .then(html => this.parser.parseContent(html));
+    // }
 }
 
 module.exports = TolokaApi;
